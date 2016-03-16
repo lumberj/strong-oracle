@@ -18,6 +18,8 @@ CREATE TABLE datatype_test (
     tchar CHAR(255),
     tnchar NCHAR(255),
     tnumber    NUMBER(10,5),
+    tnumber2    NUMBER(10,5),
+    tnumber3    NUMBER(20,17),
     tdate      DATE,
     ttimestamp TIMESTAMP,
     tclob CLOB,
